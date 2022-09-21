@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter</title>
+    <title>Reviews</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -16,13 +16,30 @@
   <body>
     <main>
       <section class="container">
+        <!-- title -->
         <div class="title">
           <h1>Team Reviews</h1>
           <div class="underline"></div>
         </div>
+        <!-- review -->
         <article class="review">
           <div class='img-container'>
             <img src="person-1.jpeg" id="person-img" alt="" />
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">UX Designer</p>
+          <p id="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloremque dolorum? Blanditiis nesciunt laboriosam ex facilis esse doloremque illo animi!</p>
+          <!-- prev next buttons -->
+          <div class="btn-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>              
+            </button>
+            <button class="next-btn">              
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="random-btn-container">
+            <button class="random-btn">Random Review</button>
           </div>
         </article>
       </section>
